@@ -1,0 +1,6 @@
+bin_PROGRAMS = xxd
+
+AM_DEFAULT_SOURCE_EXT=.c
+
+MAINFILES = xxd.c
+xxd_SOURCES = $(MAINFILES)
